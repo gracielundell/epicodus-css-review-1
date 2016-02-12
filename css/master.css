@@ -3,11 +3,7 @@ body {
   overflow: auto;
   font-family: "Questrial", sans-serif;
   color: #6B2737;
-}
-
-body img {
-  position: absolute;
-  top: 150px;
+  background-image: url("../img/orig3.jpg")
 }
 
 #wrapper {
@@ -50,9 +46,9 @@ a:hover {
   margin: 10px;
 }
 
-/* CHAIR IMGS */
+/* OTHER CHAIR IMGS */
 #chairs {
-  padding-left: 30px;
+  padding-left: 80px;
 }
 
 #otherChairs img {
@@ -65,20 +61,25 @@ a:hover {
 
 #otherChairs #yellow {
   top: 600px;
-  left: 155px;
+  left: 205px;
 }
 
 #otherChairs #green {
   top: 600px;
-  left: 263px;
+  left: 313px;
 }
 
 #otherChairs #gray {
   top: 600px;
-  left: 370px;
+  left: 420px;
 }
 
+/* MAIN CHAIR */
+
 #mainChair img {
+  position: absolute;
+  top: 150px;
+  width: 80px;
   width: 400px;
   height: 420px;
   padding: 1px;
