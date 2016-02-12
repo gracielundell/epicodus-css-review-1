@@ -1,0 +1,23 @@
+body {
+  background-color: #EEF5DB;
+}
+
+.nav {
+  overflow: auto;
+  background-color:
+}
+
+
+.otherChairs img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+.mainChair img {
+  width: 400px;
+  height: 420px;
+  padding: 1px;
+  border-radius: 5%;
+}
