@@ -35,16 +35,31 @@ a:hover {
   padding-right: 2px;
 }
 
-.otherChairs img {
+#wrapper {
+  padding: 30px;
+}
+
+#chairs {
+  padding-left: 30px;
+}
+
+#otherChairs img {
   width: 80px;
   height: 80px;
   padding: 10px;
   border-radius: 15%;
 }
 
-.mainChair img {
+#mainChair img {
+  margin-top: 80px;
   width: 400px;
   height: 420px;
   padding: 1px;
   border-radius: 5%;
+}
+
+#mainChair h1 {
+  position: absolute;
+  top: 180px;
+  left: 580px;
 }
