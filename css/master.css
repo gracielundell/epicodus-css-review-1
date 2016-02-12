@@ -3,7 +3,8 @@ body {
   overflow: auto;
   font-family: "Questrial", sans-serif;
   color: #6B2737;
-  background-image: url("../img/orig3.jpg")
+  background-image: url("../img/orig3.jpg");
+  background-repeat: no-repeat;
 }
 
 #wrapper {
