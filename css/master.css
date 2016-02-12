@@ -4,6 +4,11 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
+#wrapper {
+  padding: 30px;
+}
+
+/* NAV BAR */
 header {
   overflow: auto;
   background-color: #B59DA4;
@@ -35,9 +40,7 @@ a:hover {
   padding-right: 2px;
 }
 
-#wrapper {
-  padding: 30px;
-}
+/* CHAIR IMGS */
 
 #chairs {
   padding-left: 30px;
@@ -61,5 +64,27 @@ a:hover {
 #mainChair h1 {
   position: absolute;
   top: 180px;
-  left: 580px;
+  left: 530px;
+}
+
+/* CHAIR TEXT */
+
+#chairInfo {
+  position: absolute;
+  top: 230px;
+  left: 530px;
+}
+
+select {
+  position: absolute;
+  top: 180px;
+  left: 25px;
+  font-size: 20px;
+  font-family: "Questrial", sans-serif;
+  width: 150px;
+}
+
+option {
+  padding: 10px;
+  margin: 10px;
 }
