@@ -17,7 +17,7 @@ body img {
 /* NAV BAR */
 header {
   overflow: auto;
-  background-color: #E08E45;
+  background-color: #F2A765;
   margin: -10px;
   padding: 0 20px;
 }
@@ -42,7 +42,7 @@ header a {
 a:hover {
   color: #87441B;
   font-size: 25px;
-  margin-top: 24px;
+  margin-top: 7px;
   padding-right: 2px;
 }
 
@@ -51,7 +51,6 @@ a:hover {
 }
 
 /* CHAIR IMGS */
-
 #chairs {
   padding-left: 30px;
 }
@@ -89,13 +88,13 @@ a:hover {
 #mainChair h1 {
   position: absolute;
   top: 125px;
-  left: 630px;
+  left: 550px;
 }
 
 #mainChair h2 {
   position: absolute;
   top: 160px;
-  left: 630px;
+  left: 550px;
 }
 
 /* CHAIR TEXT */
@@ -103,13 +102,20 @@ a:hover {
 #chairInfo {
   position: absolute;
   top: 200px;
-  left: 630px;
+  left: 550px;
+  width: 400px;
   font-size: 20px;
 }
 
+li {
+  padding: 3px;
+}
+
+/*BUTTONS AND DROP-DOWN*/
+
 select {
   position: absolute;
-  top: 230px;
+  top: 265px;
   left: 25px;
   font-size: 20px;
   font-family: "Questrial", sans-serif;
@@ -119,9 +125,13 @@ select {
   border: 2px solid white;
 }
 
+select {
+  cursor: pointer;
+}
+
 button {
   position: absolute;
-  top: 277px;
+  top: 310px;
   display: block;
   border-radius: 5px;
   font-size: 20px;
@@ -136,7 +146,8 @@ button {
 button:hover {
   color: #6B2737;
   border: 2px solid #6B2737;
-  background-color: #BDF7B7;
+  background-color: #F2A765;
+  cursor: pointer;
 }
 
 #buy {
