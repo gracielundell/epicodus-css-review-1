@@ -2,7 +2,7 @@ body {
   background-color: #EDE4D0;
   overflow: auto;
   font-family: "Questrial", sans-serif;
-  color: #551B14;
+  color: #6B2737;
 }
 
 #wrapper {
@@ -12,7 +12,7 @@ body {
 /* NAV BAR */
 header {
   overflow: auto;
-  background-color: #B59DA4;
+  background-color: #E08E45;
   margin: -10px;
   padding: 0 20px;
 }
@@ -35,7 +35,7 @@ header a {
 }
 
 a:hover {
-  color: #FE5F55;
+  color: #87441B;
   font-size: 25px;
   margin-top: 24px;
   padding-right: 2px;
@@ -72,33 +72,41 @@ a:hover {
 
 #chairInfo {
   position: absolute;
-  top: 230px;
+  top: 250px;
   left: 530px;
+  font-size: 20px;
 }
 
 select {
   position: absolute;
-  top: 190px;
+  top: 230px;
   left: 25px;
   font-size: 20px;
   font-family: "Questrial", sans-serif;
   width: 170px;
   border-radius: 10px;
   background-color: white;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 button {
+  position: absolute;
+  top: 277px;
   display: block;
   border-radius: 5px;
   font-size: 20px;
   font-family: "Questrial", sans-serif;
   width: 150px;
-  color: #551B14;
-  background-color: white;
-  border: 2px solid white;
-  position: absolute;
-  top: 230px;
+  padding: 15px;
+  color: white;
+  background-color: #6B2737;
+  border: 2px solid #6B2737;
+}
+
+button:hover {
+  color: #6B2737;
+  border: 2px solid #6B2737;
+  background-color: #BDF7B7;
 }
 
 #buy {
@@ -107,6 +115,8 @@ button {
 
 #stores {
   left: 190px;
+  width: 160px;
+  padding: 15px;
 }
 
 option {
