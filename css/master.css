@@ -1,12 +1,39 @@
 body {
-  background-color: #EEF5DB;
-}
-
-.nav {
+  background-color: #EDE4D0;
   overflow: auto;
-  background-color:
+  font-family: "Questrial", sans-serif;
 }
 
+header {
+  overflow: auto;
+  background-color: #B59DA4;
+  margin: -10px;
+  padding: 0 20px;
+}
+
+header h2 {
+  float: left;
+  display: inline;
+  padding: 5px;
+  font-size: 35px;
+}
+
+header a {
+  float: right;
+  padding: 15px;
+  display: inline;
+  text-decoration: none;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #FE5F55;
+  font-size: 25px;
+  margin-top: 24px;
+  padding-right: 2px;
+}
 
 .otherChairs img {
   width: 80px;
