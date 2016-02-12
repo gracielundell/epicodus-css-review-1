@@ -1,0 +1,66 @@
+body {
+  background-color: #D6D9DE;
+  overflow: auto;
+  font-family: "Questrial", sans-serif;
+  color: #6B2737;
+  background-image: url("../img/orig3.jpg")
+}
+
+#wrapper {
+  padding: 10px;
+}
+
+/* NAV BAR */
+header {
+  overflow: auto;
+  background-color: #F2A765;
+  margin: -10px;
+  padding: 0 20px;
+}
+
+header h2 {
+  float: left;
+  display: inline;
+  padding: 5px;
+  font-size: 35px;
+}
+
+header a {
+  float: right;
+  padding: 15px;
+  display: inline;
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #87441B;
+  font-size: 25px;
+  margin-top: 7px;
+  padding-right: 2px;
+}
+
+#logo {
+  margin: 10px;
+}
+
+/* BODY */
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-size: 70px;
+}
+
+.main {
+  text-align: center;
+  overflow: auto;
+}
+
+.main img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
