@@ -1,5 +1,5 @@
 #Epicodus Code Review -- CSS Week 1
-Css Objectives Exercise for Epicodus, 02.12.2016
+CSS Objectives Exercise for Epicodus, 02.12.2016
 
 ###By Gracie Lundell
 
